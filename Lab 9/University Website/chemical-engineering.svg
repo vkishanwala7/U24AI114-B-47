@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f9f9f9" />
+  
+  <!-- Lab equipment setup -->
+  <g>
+    <!-- Lab table -->
+    <rect x="50" y="200" width="300" height="20" fill="#8b4513" />
+    <rect x="60" y="220" width="10" height="30" fill="#8b4513" />
+    <rect x="330" y="220" width="10" height="30" fill="#8b4513" />
+    
+    <!-- Erlenmeyer flask -->
+    <path d="M150 200 v-80 l-20 -40 h40 l-20 40 z" fill="none" stroke="#34495e" stroke-width="2" />
+    <path d="M150 180 v-60 l-15 -30 h30 l-15 30 z" fill="#3498db" fill-opacity="0.3" />
+    
+    <!-- Test tubes in rack -->
+    <rect x="240" y="180" width="60" height="20" fill="#95a5a6" />
+    <rect x="245" y="175" width="10" height="5" fill="#95a5a6" />
+    <rect x="265" y="175" width="10" height="5" fill="#95a5a6" />
+    <rect x="285" y="175" width="10" height="5" fill="#95a5a6" />
+    
+    <rect x="245" y="140" width="10" height="40" fill="none" stroke="#34495e" stroke-width="2" />
+    <rect x="245" y="160" width="10" height="20" fill="#e74c3c" fill-opacity="0.5" />
+    
+    <rect x="265" y="150" width="10" height="30" fill="none" stroke="#34495e" stroke-width="2" />
+    <rect x="265" y="165" width="10" height="15" fill="#f1c40f" fill-opacity="0.5" />
+    
+    <rect x="285" y="145" width="10" height="35" fill="none" stroke="#34495e" stroke-width="2" />
+    <rect x="285" y="155" width="10" height="25" fill="#2ecc71" fill-opacity="0.5" />
+  </g>
+  
+  <!-- Molecular structures -->
+  <g fill="#3498db" stroke="#2980b9" stroke-width="1.5">
+    <!-- Water molecule -->
+    <circle cx="80" cy="80" r="10" />
+    <circle cx="100" cy="60" r="8" />
+    <circle cx="100" cy="100" r="8" />
+    <line x1="80" y1="80" x2="100" y2="60" />
+    <line x1="80" y1="80" x2="100" y2="100" />
+    <text x="78" y="84" font-size="10" fill="#fff">O</text>
+    <text x="97" y="64" font-size="8" fill="#fff">H</text>
+    <text x="97" y="104" font-size="8" fill="#fff">H</text>
+    
+    <!-- Benzene ring -->
+    <g transform="translate(320, 80)">
+      <polygon points="0,-20 17.3,-10 17.3,10 0,20 -17.3,10 -17.3,-10" fill="none" stroke="#e74c3c" stroke-width="2" />
+      <circle cx="0" cy="-20" r="5" />
+      <circle cx="17.3" cy="-10" r="5" />
+      <circle cx="17.3" cy="10" r="5" />
+      <circle cx="0" cy="20" r="5" />
+      <circle cx="-17.3" cy="10" r="5" />
+      <circle cx="-17.3" cy="-10" r="5" />
+      <text x="-3" y="-17" font-size="8" fill="#fff">C</text>
+      <text x="14.3" y="-7" font-size="8" fill="#fff">C</text>
+      <text x="14.3" y="13" font-size="8" fill="#fff">C</text>
+      <text x="-3" y="23" font-size="8" fill="#fff">C</text>
+      <text x="-20.3" y="13" font-size="8" fill="#fff">C</text>
+      <text x="-20.3" y="-7" font-size="8" fill="#fff">C</text>
+    </g>
+  </g>
+  
+  <!-- Bubbles -->
+  <g fill-opacity="0.4">
+    <circle cx="150" cy="160" r="3" fill="#3498db" />
+    <circle cx="155" cy="170" r="2" fill="#3498db" />
+    <circle cx="145" cy="165" r="2.5" fill="#3498db" />
+    <circle cx="152" cy="155" r="1.5" fill="#3498db" />
+    <circle cx="148" cy="172" r="2" fill="#3498db" />
+  </g>
+  
+  <!-- Process diagram arrows -->
+  <g stroke="#34495e" stroke-width="1" fill="none">
+    <path d="M190 80 h40" marker-end="url(#arrow)" />
+    <path d="M270 80 h40" marker-end="url(#arrow)" />
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#34495e" />
+    </marker>
+  </defs>
+</svg>

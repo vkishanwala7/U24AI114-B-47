@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Header background -->
+  <rect x="0" y="0" width="800" height="150" fill="#5C3317" />
+  
+  <!-- Restaurant name -->
+  <text x="120" y="100" font-family="Arial" font-size="80" font-weight="bold" fill="white">Burger Heaven</text>
+  
+  <!-- Background -->
+  <rect x="0" y="150" width="800" height="450" fill="#f5f5f5" />
+  
+  <!-- Burger illustration -->
+  <g transform="translate(400, 350) scale(1.5)">
+    <!-- Burger bottom bun -->
+    <ellipse cx="0" cy="70" rx="100" ry="25" fill="#E8B96C" />
+    
+    <!-- Burger patty -->
+    <ellipse cx="0" cy="40" rx="95" ry="20" fill="#5C3317" />
+    
+    <!-- Cheese -->
+    <ellipse cx="0" cy="25" rx="95" ry="15" fill="#FDDA5D" />
+    
+    <!-- Lettuce -->
+    <path d="M-90,15 C-70,0 -50,25 -30,10 C-10,25 10,0 30,10 C50,0 70,25 90,15 L95,10 L95,20 L90,20 C70,35 50,10 30,25 C10,10 -10,35 -30,20 C-50,35 -70,10 -90,25 L-95,25 L-95,15 Z" fill="#2E8B57" />
+    
+    <!-- Tomato -->
+    <ellipse cx="0" cy="5" rx="80" ry="10" fill="#FF6347" />
+    
+    <!-- Burger top bun -->
+    <ellipse cx="0" cy="-20" rx="100" ry="40" fill="#E8B96C" />
+    <ellipse cx="0" cy="-30" rx="90" ry="20" fill="#E8B96C" />
+    
+    <!-- Sesame seeds -->
+    <circle cx="-60" cy="-40" r="5" fill="#FFF8DC" />
+    <circle cx="-30" cy="-45" r="5" fill="#FFF8DC" />
+    <circle cx="0" cy="-48" r="5" fill="#FFF8DC" />
+    <circle cx="30" cy="-45" r="5" fill="#FFF8DC" />
+    <circle cx="60" cy="-40" r="5" fill="#FFF8DC" />
+    <circle cx="-45" cy="-25" r="5" fill="#FFF8DC" />
+    <circle cx="-15" cy="-30" r="5" fill="#FFF8DC" />
+    <circle cx="15" cy="-30" r="5" fill="#FFF8DC" />
+    <circle cx="45" cy="-25" r="5" fill="#FFF8DC" />
+  </g>
+  
+  <!-- Plate/serving tray -->
+  <rect x="250" y="475" width="300" height="20" rx="5" ry="5" fill="#8B7355" />
+</svg>

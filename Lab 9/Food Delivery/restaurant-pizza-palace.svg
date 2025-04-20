@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180">
+  <!-- Background -->
+  <rect width="280" height="180" fill="#f8f9fa" />
+  
+  <!-- Pizza illustration -->
+  <g transform="translate(140, 90)">
+    <!-- Pizza board -->
+    <rect x="-90" y="30" width="180" height="15" rx="5" fill="#8d6e63" />
+    <rect x="-15" y="30" width="30" height="40" rx="3" fill="#8d6e63" />
+    
+    <!-- Pizza -->
+    <circle cx="0" cy="0" r="80" fill="#f5d6a6" />
+    <circle cx="0" cy="0" r="75" fill="#f57c00" />
+    <circle cx="0" cy="0" r="70" fill="#ffeb3b" />
+    
+    <!-- Pizza sauce border -->
+    <path d="M-70,0 A70,70 0 0,1 70,0 A70,70 0 0,1 -70,0" fill="none" stroke="#d84315" stroke-width="8" stroke-dasharray="2,10" />
+    
+    <!-- Pepperoni -->
+    <circle cx="-40" cy="-30" r="10" fill="#b71c1c" />
+    <circle cx="20" cy="-40" r="10" fill="#b71c1c" />
+    <circle cx="50" cy="-10" r="10" fill="#b71c1c" />
+    <circle cx="30" cy="30" r="10" fill="#b71c1c" />
+    <circle cx="-30" cy="20" r="10" fill="#b71c1c" />
+    <circle cx="-10" cy="-10" r="10" fill="#b71c1c" />
+    <circle cx="0" cy="40" r="10" fill="#b71c1c" />
+    
+    <!-- Cheese drip -->
+    <path d="M-60,-45 L-55,-35 M-20,-70 L-18,-60 M30,-63 L28,-53 M65,-30 L55,-28 M60,30 L50,28 M10,70 L12,60 M-50,50 L-45,42" stroke="#ffeb3b" stroke-width="5" />
+  </g>
+  
+  <!-- Restaurant name banner -->
+  <rect x="0" y="0" width="280" height="30" fill="#f57c00" opacity="0.8" />
+  <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Pizza Palace</text>
+</svg>

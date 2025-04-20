@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f0f9ff" />
+  
+  <!-- Circuit diagram -->
+  <g stroke="#1a5276" stroke-width="2" fill="none">
+    <!-- Main power line -->
+    <path d="M50 125 H350" />
+    
+    <!-- Components -->
+    <!-- Resistor -->
+    <path d="M100 125 v-40 l5 -5 l10 10 l10 -10 l10 10 l10 -10 l5 5 v40" stroke="#e74c3c" />
+    
+    <!-- Capacitor -->
+    <path d="M200 125 v-30 M200 95 h-15 M200 95 h15 M185 85 v20 M215 85 v20" stroke="#3498db" />
+    
+    <!-- Transistor -->
+    <path d="M280 125 v-60 M280 65 h30 v30 l-30 30 l-30 -30 v-30 z" stroke="#2ecc71" />
+    
+    <!-- Ground -->
+    <path d="M165 125 v40 M145 165 h40 M155 175 h20 M160 185 h10" />
+    
+    <!-- Voltage source -->
+    <circle cx="60" cy="125" r="10" />
+    <text x="57" y="130" font-size="16" fill="#1a5276">+</text>
+    <circle cx="340" cy="125" r="10" />
+    <text x="337" y="130" font-size="16" fill="#1a5276">-</text>
+  </g>
+  
+  <!-- Lightning bolt -->
+  <path d="M250 40 l-20 40 h15 l-15 40 l35 -50 h-15 l20 -30" fill="#f39c12" />
+  
+  <!-- Measurement points -->
+  <g fill="#e74c3c">
+    <circle cx="100" cy="125" r="4" />
+    <circle cx="200" cy="125" r="4" />
+    <circle cx="280" cy="125" r="4" />
+  </g>
+  
+  <!-- Grid lines -->
+  <g stroke="#bdc3c7" stroke-width="0.5" opacity="0.3">
+    <path d="M0 25 H400 M0 50 H400 M0 75 H400 M0 100 H400 M0 150 H400 M0 175 H400 M0 200 H400 M0 225 H400" />
+    <path d="M25 0 V250 M50 0 V250 M75 0 V250 M100 0 V250 M125 0 V250 M150 0 V250 M175 0 V250 M200 0 V250 M225 0 V250 M250 0 V250 M275 0 V250 M300 0 V250 M325 0 V250 M350 0 V250 M375 0 V250" />
+  </g>
+</svg>

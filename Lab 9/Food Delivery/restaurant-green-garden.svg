@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180">
+  <!-- Background -->
+  <rect width="280" height="180" fill="#f8f9fa" />
+  
+  <!-- Salad bowl illustration -->
+  <g transform="translate(140, 90)">
+    <!-- Bowl -->
+    <ellipse cx="0" cy="40" rx="90" ry="20" fill="#e0e0e0" />
+    <path d="M-80,40 C-80,0 -50,-40 0,-40 C50,-40 80,0 80,40" fill="none" stroke="#e0e0e0" stroke-width="15" />
+    
+    <!-- Salad base -->
+    <ellipse cx="0" cy="0" rx="70" ry="40" fill="#a5d6a7" />
+    
+    <!-- Lettuce -->
+    <path d="M-60,0 Q-40,-30 -10,-10 Q10,-30 30,-10 Q50,-30 60,0" fill="none" stroke="#388e3c" stroke-width="8" />
+    <path d="M-55,15 Q-35,-10 -5,10 Q15,-10 35,10 Q55,-10 55,20" fill="none" stroke="#388e3c" stroke-width="8" />
+    
+    <!-- Tomatoes -->
+    <circle cx="-30" cy="-5" r="10" fill="#e53935" />
+    <circle cx="15" cy="10" r="10" fill="#e53935" />
+    <circle cx="40" cy="-8" r="10" fill="#e53935" />
+    
+    <!-- Carrots -->
+    <rect x="-45" y="8" width="12" height="6" rx="3" fill="#ff7043" transform="rotate(30 -45 8)" />
+    <rect x="-20" y="15" width="12" height="6" rx="3" fill="#ff7043" transform="rotate(-20 -20 15)" />
+    <rect x="30" y="20" width="12" height="6" rx="3" fill="#ff7043" transform="rotate(15 30 20)" />
+    
+    <!-- Cucumber -->
+    <rect x="-10" y="-20" width="20" height="8" rx="4" fill="#81c784" transform="rotate(45 -10 -20)" />
+    <rect x="-40" y="20" width="20" height="8" rx="4" fill="#81c784" transform="rotate(-30 -40 20)" />
+    
+    <!-- Dressing drizzle -->
+    <path d="M-50,-10 Q-30,10 -10,-5 Q10,10 30,-5 Q40,10 50,-5" fill="none" stroke="#fff59d" stroke-width="3" stroke-dasharray="1,5" />
+  </g>
+  
+  <!-- Restaurant name banner -->
+  <rect x="0" y="0" width="280" height="30" fill="#388e3c" opacity="0.8" />
+  <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Green Garden</text>
+</svg>

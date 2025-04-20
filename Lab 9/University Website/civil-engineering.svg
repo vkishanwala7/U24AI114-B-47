@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <!-- Sky background -->
+  <rect width="400" height="150" fill="#87ceeb" />
+  
+  <!-- Ground -->
+  <rect y="150" width="400" height="100" fill="#8b5a2b" />
+  
+  <!-- Bridge -->
+  <g>
+    <!-- Bridge deck -->
+    <rect x="50" y="140" width="300" height="10" fill="#95a5a6" />
+    
+    <!-- Bridge supports -->
+    <rect x="75" y="150" width="10" height="100" fill="#7f8c8d" />
+    <rect x="315" y="150" width="10" height="100" fill="#7f8c8d" />
+    
+    <!-- Bridge arch -->
+    <path d="M85 140 Q195 80 315 140" fill="none" stroke="#7f8c8d" stroke-width="8" />
+    
+    <!-- Bridge cables -->
+    <g stroke="#34495e" stroke-width="2" fill="none">
+      <line x1="100" y1="140" x2="100" y2="110" />
+      <line x1="150" y1="140" x2="150" y2="90" />
+      <line x1="200" y1="140" x2="200" y2="80" />
+      <line x1="250" y1="140" x2="250" y2="90" />
+      <line x1="300" y1="140" x2="300" y2="110" />
+    </g>
+    
+    <!-- Road markings -->
+    <g fill="#f1c40f" stroke="none">
+      <rect x="90" y="145" width="20" height="2" />
+      <rect x="130" y="145" width="20" height="2" />
+      <rect x="170" y="145" width="20" height="2" />
+      <rect x="210" y="145" width="20" height="2" />
+      <rect x="250" y="145" width="20" height="2" />
+      <rect x="290" y="145" width="20" height="2" />
+    </g>
+  </g>
+  
+  <!-- Buildings -->
+  <g>
+    <!-- Left building -->
+    <rect x="20" y="70" width="40" height="80" fill="#3498db" />
+    <g fill="#ecf0f1">
+      <rect x="25" y="75" width="8" height="12" />
+      <rect x="38" y="75" width="8" height="12" />
+      <rect x="25" y="92" width="8" height="12" />
+      <rect x="38" y="92" width="8" height="12" />
+      <rect x="25" y="109" width="8" height="12" />
+      <rect x="38" y="109" width="8" height="12" />
+      <rect x="25" y="126" width="8" height="12" />
+      <rect x="38" y="126" width="8" height="12" />
+    </g>
+    
+    <!-- Right building -->
+    <rect x="335" y="50" width="45" height="100" fill="#e74c3c" />
+    <g fill="#ecf0f1">
+      <rect x="340" y="55" width="8" height="15" />
+      <rect x="353" y="55" width="8" height="15" />
+      <rect x="366" y="55" width="8" height="15" />
+      <rect x="340" y="75" width="8" height="15" />
+      <rect x="353" y="75" width="8" height="15" />
+      <rect x="366" y="75" width="8" height="15" />
+      <rect x="340" y="95" width="8" height="15" />
+      <rect x="353" y="95" width="8" height="15" />
+      <rect x="366" y="95" width="8" height="15" />
+      <rect x="340" y="115" width="8" height="15" />
+      <rect x="353" y="115" width="8" height="15" />
+      <rect x="366" y="115" width="8" height="15" />
+    </g>
+  </g>
+  
+  <!-- Blueprint elements -->
+  <g stroke="#1a5276" stroke-width="0.5" fill="none" opacity="0.3">
+    <circle cx="200" cy="80" r="50" />
+    <line x1="150" y1="80" x2="250" y2="80" />
+    <line x1="200" y1="30" x2="200" y2="130" />
+  </g>
+</svg>

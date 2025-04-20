@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <!-- Base gradient background - blue to green -->
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4285f4" />
+      <stop offset="100%" stop-color="#34a853" />
+    </linearGradient>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5e97f6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#57bb8a" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rectangle with blue-green gradient -->
+  <rect width="100%" height="100%" fill="url(#heroGradient)" />
+  
+  <!-- Abstract patterns with blue and green tones -->
+  <path d="M0,100 Q300,150 600,100 T1200,150 V500 H0 Z" fill="url(#waveGradient)" opacity="0.5" />
+  <path d="M0,200 Q300,250 600,200 T1200,250 V500 H0 Z" fill="#4aa5e5" opacity="0.3" />
+  
+  <!-- Decorative circles with blue and green -->
+  <circle cx="200" cy="100" r="80" fill="#5e97f6" opacity="0.3" />
+  <circle cx="1000" cy="350" r="120" fill="#57bb8a" opacity="0.3" />
+  <circle cx="800" cy="150" r="50" fill="#4aa5e5" opacity="0.3" />
+  <circle cx="400" cy="400" r="60" fill="#66bb6a" opacity="0.3" />
+  
+  <!-- Small dots pattern -->
+  <g opacity="0.25">
+    <circle cx="100" cy="300" r="3" fill="white" />
+    <circle cx="300" cy="200" r="2" fill="white" />
+    <circle cx="500" cy="150" r="3" fill="white" />
+    <circle cx="700" cy="250" r="2" fill="white" />
+    <circle cx="900" cy="100" r="3" fill="white" />
+    <circle cx="1100" cy="200" r="2" fill="white" />
+    <circle cx="150" cy="150" r="2" fill="white" />
+    <circle cx="250" cy="350" r="3" fill="white" />
+    <circle cx="450" cy="300" r="2" fill="white" />
+    <circle cx="650" cy="400" r="3" fill="white" />
+    <circle cx="850" cy="350" r="2" fill="white" />
+    <circle cx="1050" cy="300" r="3" fill="white" />
+  </g>
+</svg>

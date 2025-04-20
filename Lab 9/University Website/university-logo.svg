@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <!-- Background -->
+  <rect width="60" height="60" rx="5" fill="#1a5276" />
+  
+  <!-- Shield Shape -->
+  <path d="M30 10 L50 20 L50 40 L30 50 L10 40 L10 20 Z" fill="#f5f5f5" />
+  
+  <!-- Book -->
+  <rect x="22" y="25" width="16" height="12" fill="#e74c3c" />
+  <path d="M22 25 L22 37 L30 33 L38 37 L38 25 Z" fill="#c0392b" />
+  
+  <!-- Gears -->
+  <circle cx="30" cy="24" r="5" fill="#f39c12" />
+  <circle cx="30" cy="24" r="2" fill="#1a5276" />
+  <path d="M30 19 L31 17 L33 18 L32 21 Z" fill="#f39c12" />
+  <path d="M35 24 L37 24 L37 26 L35 26 Z" fill="#f39c12" />
+  <path d="M30 29 L29 31 L27 30 L28 27 Z" fill="#f39c12" />
+  <path d="M25 24 L23 24 L23 26 L25 26 Z" fill="#f39c12" />
+  
+  <!-- Text Element -->
+  <text x="30" y="45" text-anchor="middle" fill="#1a5276" font-size="8" font-weight="bold">TECH U</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f5f7fa" />
+  
+  <!-- Gears -->
+  <g transform="translate(200, 125)">
+    <!-- Large gear -->
+    <circle cx="0" cy="0" r="70" fill="#95a5a6" />
+    <circle cx="0" cy="0" r="60" fill="#ecf0f1" />
+    <circle cx="0" cy="0" r="15" fill="#34495e" />
+    
+    <!-- Teeth for large gear -->
+    <g fill="#95a5a6">
+      <rect x="-75" y="-10" width="20" height="20" />
+      <rect x="55" y="-10" width="20" height="20" />
+      <rect x="-10" y="-75" width="20" height="20" />
+      <rect x="-10" y="55" width="20" height="20" />
+      
+      <!-- Diagonal teeth -->
+      <rect transform="rotate(45) translate(-10, -75)" width="20" height="20" />
+      <rect transform="rotate(45) translate(-10, 55)" width="20" height="20" />
+      <rect transform="rotate(45) translate(55, -10)" width="20" height="20" />
+      <rect transform="rotate(45) translate(-75, -10)" width="20" height="20" />
+      
+      <!-- Additional teeth -->
+      <rect transform="rotate(22.5) translate(-10, -75)" width="20" height="20" />
+      <rect transform="rotate(22.5) translate(-10, 55)" width="20" height="20" />
+      <rect transform="rotate(67.5) translate(-10, -75)" width="20" height="20" />
+      <rect transform="rotate(67.5) translate(-10, 55)" width="20" height="20" />
+    </g>
+    
+    <!-- Small gear -->
+    <g transform="translate(-95, -60)">
+      <circle cx="0" cy="0" r="35" fill="#7f8c8d" />
+      <circle cx="0" cy="0" r="30" fill="#ecf0f1" />
+      <circle cx="0" cy="0" r="8" fill="#34495e" />
+      
+      <!-- Teeth for small gear -->
+      <g fill="#7f8c8d">
+        <rect x="-40" y="-5" width="15" height="10" />
+        <rect x="25" y="-5" width="15" height="10" />
+        <rect x="-5" y="-40" width="10" height="15" />
+        <rect x="-5" y="25" width="10" height="15" />
+        
+        <!-- Diagonal teeth -->
+        <rect transform="rotate(45) translate(-5, -30)" width="10" height="15" />
+        <rect transform="rotate(45) translate(-5, 15)" width="10" height="15" />
+        <rect transform="rotate(45) translate(15, -5)" width="15" height="10" />
+        <rect transform="rotate(45) translate(-30, -5)" width="15" height="10" />
+      </g>
+    </g>
+  </g>
+  
+  <!-- Blueprint lines -->
+  <g stroke="#1a5276" stroke-width="0.5" fill="none">
+    <line x1="0" y1="25" x2="400" y2="25" />
+    <line x1="0" y1="225" x2="400" y2="225" />
+    <line x1="25" y1="0" x2="25" y2="250" />
+    <line x1="375" y1="0" x2="375" y2="250" />
+  </g>
+</svg>

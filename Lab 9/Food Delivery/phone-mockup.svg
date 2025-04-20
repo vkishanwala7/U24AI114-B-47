@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600">
+  <!-- Phone body -->
+  <rect width="300" height="600" rx="30" fill="#333" />
+  <rect x="10" y="10" width="280" height="580" rx="20" fill="#111" />
+  
+  <!-- Screen -->
+  <rect x="15" y="15" width="270" height="570" rx="15" fill="#fff" />
+  
+  <!-- Notch -->
+  <rect x="90" y="15" width="120" height="25" rx="12" fill="#111" />
+  
+  <!-- FreshEats app interface -->
+  <!-- Status bar -->
+  <rect x="15" y="40" width="270" height="30" fill="#f8f9fa" />
+  <text x="30" y="60" font-family="Arial" font-size="12" fill="#333">9:41 AM</text>
+  <text x="235" y="60" font-family="Arial" font-size="12" fill="#333">100%</text>
+  
+  <!-- App header -->
+  <rect x="15" y="70" width="270" height="50" fill="#fff" />
+  <text x="30" y="100" font-family="Arial" font-size="18" fill="#1a73e8" font-weight="bold">Fresh</text>
+  <text x="80" y="100" font-family="Arial" font-size="18" fill="#34a853" font-weight="bold">Eats</text>
+  <circle cx="245" cy="95" r="15" fill="#f5f5f5" />
+  <text x="240" y="100" font-family="Arial" font-size="14" fill="#666">🔍</text>
+  
+  <!-- Location bar -->
+  <rect x="25" y="130" width="250" height="40" rx="5" fill="#f5f5f5" />
+  <text x="45" y="155" font-family="Arial" font-size="12" fill="#666">📍 Delivering to: Current Location</text>
+  
+  <!-- Promotions banner -->
+  <rect x="25" y="180" width="250" height="100" rx="10" fill="#1a73e8" />
+  <rect x="35" y="195" width="150" height="20" rx="5" fill="white" opacity="0.9" />
+  <rect x="35" y="225" width="100" height="15" rx="5" fill="white" opacity="0.7" />
+  <rect x="35" y="250" width="120" height="15" rx="5" fill="white" opacity="0.7" />
+  <circle cx="225" cy="230" r="30" fill="white" opacity="0.2" />
+  <path d="M210,230 L225,215 L240,230 L225,245 Z" fill="white" />
+  
+  <!-- Categories -->
+  <text x="25" y="310" font-family="Arial" font-size="16" fill="#333" font-weight="bold">Categories</text>
+  
+  <!-- Category icons -->
+  <circle cx="50" cy="350" r="25" fill="#f5f5f5" />
+  <text x="40" y="355" font-family="Arial" font-size="14">🍔</text>
+  
+  <circle cx="115" cy="350" r="25" fill="#f5f5f5" />
+  <text x="105" y="355" font-family="Arial" font-size="14">🍕</text>
+  
+  <circle cx="180" cy="350" r="25" fill="#f5f5f5" />
+  <text x="170" y="355" font-family="Arial" font-size="14">🥗</text>
+  
+  <circle cx="245" cy="350" r="25" fill="#f5f5f5" />
+  <text x="235" y="355" font-family="Arial" font-size="14">🍣</text>
+  
+  <!-- Popular Restaurants -->
+  <text x="25" y="410" font-family="Arial" font-size="16" fill="#333" font-weight="bold">Popular Restaurants</text>
+  
+  <!-- Restaurant cards -->
+  <rect x="25" y="425" width="120" height="140" rx="10" fill="#fff" stroke="#eee" stroke-width="1" />
+  <rect x="25" y="425" width="120" height="80" rx="10" fill="#f57c00" opacity="0.8" />
+  <rect x="35" y="515" width="80" height="15" rx="2" fill="#333" opacity="0.8" />
+  <rect x="35" y="535" width="60" height="10" rx="2" fill="#666" opacity="0.8" />
+  
+  <rect x="155" y="425" width="120" height="140" rx="10" fill="#fff" stroke="#eee" stroke-width="1" />
+  <rect x="155" y="425" width="120" height="80" rx="10" fill="#388e3c" opacity="0.8" />
+  <rect x="165" y="515" width="80" height="15" rx="2" fill="#333" opacity="0.8" />
+  <rect x="165" y="535" width="60" height="10" rx="2" fill="#666" opacity="0.8" />
+  
+  <!-- Bottom navigation -->
+  <rect x="15" y="535" width="270" height="50" fill="#fff" stroke="#eee" stroke-width="1" />
+  
+  <circle cx="55" cy="560" r="20" fill="#fff" />
+  <text x="45" y="565" font-family="Arial" font-size="14">🏠</text>
+  
+  <circle cx="120" cy="560" r="20" fill="#fff" />
+  <text x="110" y="565" font-family="Arial" font-size="14">🔍</text>
+  
+  <circle cx="185" cy="560" r="20" fill="#fff" />
+  <text x="175" y="565" font-family="Arial" font-size="14">🛒</text>
+  
+  <circle cx="250" cy="560" r="20" fill="#fff" />
+  <text x="240" y="565" font-family="Arial" font-size="14">👤</text>
+</svg>
